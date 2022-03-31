@@ -1,4 +1,4 @@
-export const Card = (title = 1, data = 2) => {
+export const Card = (title, data) => {
   return `
     <div class="card">
       <h4 class="card__title">${title}</h4>
